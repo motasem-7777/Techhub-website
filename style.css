@@ -1,10 +1,13 @@
-html {
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
-  
-  margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to bottom right, #0d0d2b, #2c136a);
   color: #ffffff;
@@ -24,7 +27,6 @@ body {
   align-items: center;
   padding: 1rem 2rem;
 }
-
 
 .logo {
   display: flex;
@@ -68,7 +70,7 @@ nav ul li a:hover {
 
 .hero {
   text-align: center;
-  padding: 8rem 2rem 5rem
+  padding: 8rem 2rem 5rem;
 }
 
 .hero h2 {
@@ -193,7 +195,6 @@ footer {
   color: #888;
 }
 
-/* Fade-in animation */
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -207,7 +208,6 @@ footer {
   }
 }
 
-/* Responsive design for mobile */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -250,8 +250,4 @@ footer {
   .contact-info p {
     font-size: 0.9rem;
   }
-}
-html, body {
-  height: 100%;
-  overflow-x: hidden;
 }
