@@ -15,10 +15,8 @@ body {
 }
 
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  width: 100%;
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(8px);
@@ -70,7 +68,7 @@ nav ul li a:hover {
 
 .hero {
   text-align: center;
-  padding: 8rem 2rem 5rem;
+  padding: 7rem 2rem 5rem;
 }
 
 .hero h2 {
