@@ -12,16 +12,19 @@ body {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  backdrop-filter: blur(8px);
   padding: 1rem 2rem;
-  background-color: rgba(0, 0, 0, 0.4);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
+
 
 .logo {
   display: flex;
@@ -65,7 +68,7 @@ nav ul li a:hover {
 
 .hero {
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 8rem 2rem 5rem
 }
 
 .hero h2 {
