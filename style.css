@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to bottom right, #0d0d2b, #2c136a);
@@ -246,4 +247,8 @@ footer {
   .contact-info p {
     font-size: 0.9rem;
   }
+}
+html, body {
+  height: 100%;
+  overflow-x: hidden;
 }
